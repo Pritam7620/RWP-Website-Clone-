@@ -1,0 +1,37 @@
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+background-color: rgb(243, 244, 245);
+}
+
+a{
+text-decoration: none;
+margin-left: 20px;
+}
+.cointainer1{
+  margin-top: 0;
+display: flex;
+justify-content: space-between;
+height: 10vh;
+align-items: center;
+
+margin-left: 60px;
+margin-right: 60px;
+
+}
+.head-left{
+
+
+font-family: Arial, Helvetica, sans-serif;
+ color: rgb(27, 20, 20);
+
+
+}
+.ig{
+background-color: aliceblue;
+  height: 20px;
+
+  border-radius: 10px;
+}
