@@ -1,9 +1,10 @@
 *{
-
 padding: 0;
 margin: 0;
 box-sizing: border-box;
-background-color: rgb(243, 244, 245);
+}
+body{
+  background-color: rgb(166, 187, 208);
 }
 
 a{
@@ -11,27 +12,58 @@ text-decoration: none;
 margin-left: 20px;
 }
 .cointainer1{
-  margin-top: 0;
+margin-top: 0;
+background-color: aliceblue;
 display: flex;
 justify-content: space-between;
 height: 10vh;
 align-items: center;
 
-margin-left: 60px;
-margin-right: 60px;
-
 }
 .head-left{
-
-
+  margin-left: 40px;
 font-family: Arial, Helvetica, sans-serif;
  color: rgb(27, 20, 20);
-
 
 }
 .ig{
 background-color: aliceblue;
   height: 20px;
-
   border-radius: 10px;
 }
+.head-right{
+margin-right: 100px;
+display: flex;
+gap: 20px;
+
+}
+
+.head-right select{
+background: transparent;
+font-family: Arial, Helvetica, sans-serif;
+width: 40px;
+height: 20px;
+
+}
+
+.cointainer2{
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.cointainer2 div{
+margin: 20px 40px;
+height: 160px;
+width: 160px;
+background-color:rgb(218, 228, 228);
+border: 2px solid black;
+
+}
+
+.cointainer2 h3{
+
+
+}
+
