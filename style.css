@@ -7,63 +7,119 @@ body{
   background-color: rgb(166, 187, 208);
 }
 
+
 a{
-text-decoration: none;
-margin-left: 20px;
+   text-decoration: none;
+ color: rgb(78, 75, 75);
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
 }
-.cointainer1{
-margin-top: 0;
-background-color: aliceblue;
-display: flex;
-justify-content: space-between;
-height: 10vh;
+
+header{
+
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  background-color: aliceblue;
+height: 60px;
 align-items: center;
 
 }
-.head-left{
-  margin-left: 40px;
-font-family: Arial, Helvetica, sans-serif;
- color: rgb(27, 20, 20);
+
+.head1{
+margin: 0 50px;
+position: relative;
 
 }
-.ig{
-background-color: aliceblue;
+.head1 img {
   height: 20px;
+  width: 20px;
+  margin-right: 40px;
+}
+
+.head1 a{
+  margin-right: 12px;
+}
+
+
+.More{
+  position: relative;
+  display: inline-block;
+}
+.More-child{
+ 
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 240px;
+
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+display: none;
+}
+
+
+.More:hover .More-child{
+  display: block;
+}
+.More-child a{
+  display: block;
+   padding: 12px;
+  margin-bottom: 8px;
   border-radius: 10px;
+  text-decoration: none;
+  color: #222;
+  background: #f3f5f9;
+
 }
-.head-right{
-margin-right: 100px;
+#id{
+  color: rgb(190, 209, 19);
+}
+
+.head2{
+margin: 0 50px;
 display: flex;
-gap: 20px;
-
+gap: 36px;
 }
 
-.head-right select{
-background: transparent;
-font-family: Arial, Helvetica, sans-serif;
-width: 40px;
-height: 20px;
-
-}
-
-.cointainer2{
-display: flex;
-justify-content: space-between;
+.All{
+position: relative;
 
 
 }
 
-.cointainer2 div{
-margin: 20px 40px;
-height: 160px;
-width: 160px;
-background-color:rgb(218, 228, 228);
-border: 2px solid black;
+.All-child{
+position: absolute;
+display: none;
+width: 100px;
+ top: 20px;
+  left: 0;
+  width:100px ;
+
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 
 }
-
-.cointainer2 h3{
-
-
+.All:hover .All-child{
+  display: block;
 }
 
+
+.All-child a{
+ 
+}
+
+.All-child option{
+
+  display: block;
+   padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #222;
+  background: #f3f5f9;
+}
