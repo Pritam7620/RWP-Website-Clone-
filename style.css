@@ -214,7 +214,7 @@ width: max-content;
  
   flex-shrink: 0;
   border-radius: 20px;
-  background-color: #e1f6fa;
+  background-color: #fbf3f3;
   
 }
 @keyframes boxestransition{
@@ -272,6 +272,7 @@ margin-top: 120PX;
   margin: 40px 120px;
 }
 .feature-child2 i{
+  margin-right: 20px;
 height: 48px;
 width: 48px;
 padding: 16px;
@@ -325,7 +326,8 @@ background-color: #ffffff;
 .card-child p{
   margin-top: 30px;
   color: #146fe6;
-   font-size: 120%;
+   font-size: 180%;
+   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
 .card-child button{
@@ -338,4 +340,113 @@ background-color: #ffffff;
   font-size: 120%;
   background-color: #146fe6;
   color: #ffffff;
+}
+
+/*--------------Explore Books---------------*/
+
+.Explore {
+height: 100vh;
+  background-color: #ffffff;
+ 
+}
+
+.Explore-child h2{
+text-align: center;
+color: #146fe6;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+
+font-size: 260%;
+}
+
+
+
+.Explore-div{
+
+  display: flex;
+  margin-top: 40px;
+  gap: 40px;
+  justify-content: center;
+}
+
+.Explore-child-div1{
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  z-index: 999;
+padding: 12px;
+ border: 1px solid rgb(151, 144, 144);
+ border-radius: 12px;
+  
+}
+
+.Explore-child-div1 p{
+  margin-top: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Explore-child-div1 h3{
+  margin-top: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Explore-child-div2{
+   display: flex;
+  flex-direction: column;
+  align-self: center;
+ z-index: 999;
+padding: 12px;
+ border: 1px solid rgb(151, 144, 144);
+ border-radius: 12px;
+}
+
+
+
+.Explore-child-div1 img{
+  margin-left: 8px;
+width: 300px;
+border-radius: 16px;
+}
+.Explore-child-div2 img{
+  width: 150px;
+  margin-top: 16px;
+  margin-left: 80px;
+
+
+}
+
+.Explore-child-div2 h3{
+  margin: 16px;
+
+}
+.Explore-child-div2 p{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.Explore-child-div3{
+    display: flex;
+  align-self: center;
+  flex-direction: column;
+  align-self: flex-start;
+  z-index: 999;
+padding: 12px;
+ border: 1px solid rgb(151, 144, 144);
+ border-radius: 12px;
+
+}
+
+.Explore-child-div3 img{
+   margin-left: 8px;
+width: 300px;
+border-radius: 16px;
+}
+
+.Explore-child-div3 p{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.Explore-child-div3 h3{
+  margin: 16px;
+
 }
