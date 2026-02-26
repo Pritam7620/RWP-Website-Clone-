@@ -156,6 +156,56 @@ background: #f3f5f9;
 
 
 
+
+/*------------------Paid Classes------------------*/
+
+.Paidclases-container{
+height: 400px;
+background-color: #146fe6;
+display: flex;
+
+color: #ffffff;
+
+}
+
+.Paid-classeschild{
+margin: 0 180px;
+text-align: center;
+
+}
+.Paid-classeschild h2{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 280%;
+  text-align: center;
+
+}
+
+
+.Paid-classeschild button{
+text-align: start;
+color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+padding: 12px;
+border-radius: 16px;
+outline: none;
+border: 1px solid #d8eaf1;
+background-color: transparent;
+margin-left: 12px;
+margin-top: 8px;
+cursor: pointer;
+}
+
+#btn-text{
+  background-color: #ffffff;
+  color: #222;
+  font-weight: 400;
+}
+
+
+
 /*----------------------------Footer------------------------------------*/
 
 
@@ -238,54 +288,6 @@ padding: 12px;
 #imgwindow{
   height: 60px;
 }
-
-
-/*------------------Paid Classes------------------*/
-
-.Paidclases-container{
-height: 400px;
-background-color: #146fe6;
-display: flex;
-
-color: #ffffff;
-
-}
-
-.Paid-classeschild{
-margin: 0 180px;
-text-align: center;
-
-}
-.Paid-classeschild h2{
-  margin-top: 60px;
-  margin-bottom: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 280%;
-  text-align: center;
-
-}
-
-
-.Paid-classeschild button{
-text-align: start;
-color: #ffffff;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 600;
-padding: 12px;
-border-radius: 16px;
-outline: none;
-border: 1px solid #d8eaf1;
-background-color: transparent;
-margin-left: 12px;
-margin-top: 8px;
-}
-
-#btn-text{
-  background-color: #ffffff;
-  color: #222;
-  font-weight: 400;
-}
-
 
 /*---------Foot-last---------------*/
 
