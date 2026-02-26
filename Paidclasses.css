@@ -1,0 +1,300 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+  background-color: rgb(182, 207, 212);
+   margin: 0;
+  padding-top: 60px;
+}
+
+
+a{
+   text-decoration: none;
+ color: rgb(78, 75, 75);
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+}
+
+header{
+
+  display: flex;
+  justify-content: space-between;
+ width: 100%;
+  background-color: #ffffff;
+height: 60px;
+align-items: center;
+position: fixed;
+top: 0;
+
+z-index: 1000;
+
+}
+
+.head1{
+margin: 0 50px;
+position: relative;
+
+}
+.head1 img {
+  height: 20px;
+  width: 20px;
+  margin-right: 40px;
+}
+
+.head1 a{
+  padding: 8px;
+  margin-right: 12px;
+  border-radius: 8px;
+}
+.head1 a:hover{
+  background-color: #c6d5e9;
+}
+
+.head2 i{
+  padding: 12px;
+ background-color: #146fe6;
+ color: #ffffff;
+ border-radius: 8px;
+height: 40px;
+ width: 40px;
+}
+
+.head2 a{
+  color: #146fe6;
+}
+
+#f11{
+ background-color: #d5eef8;
+  border: 1px solid #a2b5cc;
+  color: #146fe6;
+
+}
+#f1{
+color: #146fe6;
+  background-color: #ffffff;
+}
+
+.More{
+  position: relative;
+  display: inline-block;
+}
+.More-child{
+ 
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 240px;
+z-index: 9999;
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+display: none;
+}
+
+
+.More:hover .More-child{
+  display: block;
+}
+.More-child a{
+  display: block;
+   padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #222;
+  background: #f3f5f9;
+
+}
+
+.head2{
+margin: 0 50px;
+display: flex;
+gap: 36px;
+}
+
+.All{
+position: relative;
+
+
+}
+
+
+.All-child{
+position: absolute;
+display: none;
+margin-right: 80px;
+ top: 40px;
+z-index: 9999;
+  width:160px ;
+
+background: #f3f5f9;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+
+}
+.All:hover .All-child{
+  display: block;
+}
+
+
+.All-child option{
+
+  display: block;
+ 
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: #222;
+  
+
+
+}
+/*-----------------------------------header over-----------------------------*/
+
+
+
+/*----------------------------Footer------------------------------------*/
+
+
+footer{
+  display: flex;
+  justify-content: center;
+gap: 40px;
+  background-color: #ffffff;
+  padding-bottom: 80px;
+}
+
+
+
+.footer-child1 img{
+ 
+  height: 120px;
+}
+
+.footer-child2 p{
+ text-align: center;
+ margin: 12px;
+}
+.footer-child2 i{
+  height: 36px;
+  width: 36px;
+  padding: 8px;
+  border:  1px solid  rgb(154, 189, 200);
+  border-radius: 10px;
+}
+
+
+
+.Footc{
+  margin-top: 16px;
+width: 600px;
+padding: 12px;
+
+ text-align: center;
+}
+
+.Footc p{
+  font-size: 150%;
+  padding: 24px;
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.Footc ul li{
+  font-family: Arial, Helvetica, sans-serif;
+ padding: 4px;
+ text-align: start;
+  list-style: none;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+.Footc img {
+  cursor: pointer;
+}
+
+.legal-child{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 80px;
+  
+}
+
+.legal-child a{
+  color: #146fe6;
+  cursor: pointer;
+}
+.legal-child a:hover{
+  text-decoration: underline #494848;
+
+
+}
+
+
+#imgwindow{
+  height: 60px;
+}
+
+
+/*------------------Paid Classes------------------*/
+
+.Paidclases-container{
+height: 400px;
+background-color: #146fe6;
+display: flex;
+
+color: #ffffff;
+
+}
+
+.Paid-classeschild{
+margin: 0 180px;
+text-align: center;
+
+}
+.Paid-classeschild h2{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 280%;
+  text-align: center;
+
+}
+
+
+.Paid-classeschild button{
+text-align: start;
+color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+padding: 12px;
+border-radius: 16px;
+outline: none;
+border: 1px solid #d8eaf1;
+background-color: transparent;
+margin-left: 12px;
+margin-top: 8px;
+}
+
+#btn-text{
+  background-color: #ffffff;
+  color: #222;
+  font-weight: 400;
+}
+
+
+/*---------Foot-last---------------*/
+
+.Foot-last{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  color: #ffffff;
+  background-color: #146fe6;
+ 
+}

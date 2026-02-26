@@ -66,7 +66,7 @@ height: 40px;
 }
 
 #f11{
-  background-color: #ffffff;
+  background-color: #d5eef8;
   border: 1px solid #a2b5cc;
   color: #146fe6;
 
@@ -242,6 +242,25 @@ color: #146fe6;
   font-size: 140%;
 }
 
+/*------------------------measssage----------------------------*/
+
+.meassage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+}
+.meassage i{
+position: fixed;
+padding: 20px;
+background-color: #146fe6;
+border-radius: 80px;
+height: 60px;
+width: 60px;
+color: #ffffff;
+margin-right: 40px;
+}
 
 /*-----------------------Features-----------------------------*/
 
@@ -348,7 +367,7 @@ background-color: #ffffff;
 /*--------------Explore Books---------------*/
 
 .Explore {
-height: 100vh;
+height: 110vh;
   background-color: #ffffff;
  
 }
@@ -384,6 +403,8 @@ padding: 12px;
  padding: 16px;
  border-radius: 12px;
    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+   transition: all 0.5s ease-in-out;
 }
 
 .Explore-child-div1 p{
@@ -393,6 +414,12 @@ padding: 12px;
 .Explore-child-div1 h3{
   margin-top: 8px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Explore-child-div1:hover{
+  transform:  scale(1.05);
+ 
 }
 
 .Explore-child-div2{
@@ -405,6 +432,7 @@ padding: 12px;
  background-color: #f2f2f2;
  border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: all 0.5s ease-in-out;
 }
 
 
@@ -420,6 +448,11 @@ border-radius: 16px;
   margin-left: 80px;
 
 
+}
+
+.Explore-child-div2:hover{
+  transform:  scale(1.05);
+ 
 }
 
 .Explore-child-div2 h3{
@@ -442,6 +475,7 @@ padding: 12px;
  background-color: #f2f2f2;
  border-radius: 12px;
  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+ transition: all 0.5s ease-in-out;
 }
 
 .Explore-child-div3 img{
@@ -458,6 +492,11 @@ border-radius: 16px;
 .Explore-child-div3 h3{
   margin: 16px;
 
+}
+
+.Explore-child-div3:hover{
+  transform:  scale(1.05);
+ 
 }
 
 /*----------------------------See All------------------------*/
@@ -578,11 +617,6 @@ gap: 40px;
 }
 
 
-/* .legal-child{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
 
 .Footc{
   margin-top: 16px;
@@ -605,8 +639,12 @@ padding: 12px;
  text-align: start;
   list-style: none;
   margin-left: 80px;
+  cursor: pointer;
 }
 
+.Footc img {
+  cursor: pointer;
+}
 
 .legal-child{
   display: flex;
@@ -618,6 +656,7 @@ padding: 12px;
 
 .legal-child a{
   color: #146fe6;
+  cursor: pointer;
 }
 .legal-child a:hover{
   text-decoration: underline #494848;
