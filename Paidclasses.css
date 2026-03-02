@@ -348,3 +348,27 @@ padding: 12px;
   background-color: #146fe6;
  
 }
+
+
+/*------------------meassage section-----------*/
+
+.message-btn{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+   font-size: 24px;
+  padding: 15px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+   background-color: #2446b5;
+  color: white;
+  margin-bottom: 140px;
+  transition: 0.3s ease;
+}
+
+.message-btn:hover{
+  transform: scale(1.2);
+
+}
