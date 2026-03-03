@@ -1,10 +1,9 @@
 *{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
 
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
 }
-
 
 body{
   background-color: rgb(182, 207, 212);
@@ -68,7 +67,7 @@ height: 40px;
   color: #146fe6;
 }
 
-#f11{
+#f14{
  background-color: #d5eef8;
   border: 1px solid #a2b5cc;
   color: #146fe6;
@@ -155,29 +154,30 @@ background: #f3f5f9;
 
 }
 
-/*------------------------free classes---------------------------*/
+/*------------------Paid Test Series-------------------*/
 
-.Paidclases-container{
-height: 300px;
+.Paid{
+height: 200px;
 background-color: #146fe6;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+
+.Paid-series h2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 60px;
 color: #ffffff;
+}
+/*---------------next--------------------*/
 
+.next{
+  height: 100vh;
+  background-color: #ffffff;
 }
 
+/*--------------footer -----------------------*/
 
-
-.Paid-classeschild h2{
-
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 380%;
-
-
-}
-
-/*-------------------------footer---------------------*/
 
 
 footer{
