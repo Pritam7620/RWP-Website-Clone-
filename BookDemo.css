@@ -154,58 +154,22 @@ background: #f3f5f9;
 
 }
 
-/*-----------------Books container-------------------*/
+/*-----------------freeWeektest container-------------------*/
 
 
-
-.search{
-
-height: 240px;
+.freeWeektest{
+height: 200px;
 background-color: #146fe6;
 display: flex;
 justify-content: center;
 align-items: center;
-
 }
 
-.search-input input{
-border-radius: 16px;
-  padding: 10px;
-  height: 40px;
-  width: 780px;
-  outline: none;
-  background-color: #ffffff;
-  border: none;
+.freeweek h2{
+color: #ffffff;
+font-size: 60px;
+font-family: Arial, Helvetica, sans-serif;
 }
-
-.search-input i{
-   padding: 10px;
- background-color: #146fe6;
- color: #ffffff;
- border-radius: 8px;
-height: 40px;
- width: 40px;
-
-}
-
-
-#f12{
-
- background-color: #d5eef8;
-  border: 1px solid #a2b5cc;
-  color: #146fe6;
-
-}
-
-
-.search-input h2{
-
-  color: #ffffff;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 80px;
-}
-
 
 /*---------------next--------------------*/
 
@@ -223,12 +187,13 @@ gap: 40px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+border: 1 px solid red;
 margin: 40px 0 ;
 color: #222;
  gap: 4px;
   background-color: #f3ebeb;
   height: 350px;
+  width: 350px;
   border-radius: 16px;
 }
 .car1 p{
